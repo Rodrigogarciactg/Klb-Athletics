@@ -1,0 +1,323 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.top {
+  /* padding: 1rem; */
+  margin: 3rem;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+h3 {
+  display: flex;
+  margin: 3rem;
+  position: relative;
+  bottom: 1rem;
+}
+td {
+  width: 5rem;
+}
+
+table {
+  max-width: 60rem;
+  position: relative;
+  left: 3rem;
+}
+
+.form {
+  border-radius: 0.5rem;
+  border-style: solid;
+  max-width: 75rem;
+  max-height: 50rem;
+  position: relative;
+  left: 2.3rem;
+}
+p {
+  /* display: inline-block;
+  margin: 2rem;
+  padding: 5rem;
+  background-color: red;
+  max-height: 50rem; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: red;
+  max-height: 50rem;
+  max-width: 25rem;
+  margin: 2rem;
+  padding: 5rem; */
+}
+form {
+  max-height: 50rem;
+  border: solid black;
+  max-width: 75rem;
+}
+.addbtn {
+  position: relative;
+  right: 25rem;
+  bottom: 7rem;
+  background-color: rgb(57, 57, 255);
+  color: white;
+  height: 3rem;
+  width: 15rem;
+}
+.editbtn {
+  position: relative;
+  right: 53rem;
+  top: 12rem;
+  background-color: rgb(57, 57, 255);
+  color: white;
+  height: 3rem;
+  width: 15rem;
+}
+.mb-3 {
+  font-size: medium;
+  font-weight: 800;
+  display: flex;
+  /* text-align: left; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  max-width: 25rem;
+  margin-left: 3rem;
+  padding-right: 1rem;
+  /* background-color: red; */
+  justify-content: space-between;
+  align-items: center;
+  /* max-height: 70rem; */
+}
+.work {
+  padding-right: 6rem;
+}
+Form {
+  width: 40rem;
+  height: 30rem;
+  padding-left: 2rem;
+}
+.test {
+  max-height: 70rem;
+  padding: 2rem;
+}
+.body {
+  max-width: 75rem;
+  padding: 15rem;
+  /* background-color: red; */
+  border: solid black;
+  margin: 3rem;
+}
+
+.info {
+  display: block;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 3rem;
+  position: relative;
+  bottom: 13rem;
+  right: 13rem;
+}
+.bold {
+  font-weight: 700;
+}
+.details {
+  margin-left: 0rem;
+}
+.adoptbtn {
+  color: white;
+  background-color: red;
+  height: 3rem;
+  width: 15rem;
+}
+.type {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: space-between;
+}
+.des {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: space-between;
+}
+.skills {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: space-between;
+}
+.bodyItems {
+  position: relative;
+  bottom: 12rem;
+  right: 13rem;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.des2 {
+  display: flex;
+  justify-items: flex-start;
+}
+.offer {
+  border-color: black;
+  border-style: solid;
+  height: 10rem;
+  width: 15rem;
+  margin-left: 5rem;
+  padding-top: 2rem;
+  border-radius: 0.5rem;
+}
+.classmenu {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  height: 20rem;
+  width: 35rem;
+  border-radius: 0.5rem;
+}
+.bottommenu {
+  margin-left: 12rem;
+  margin-top: 3rem;
+  border-color: rgb(0, 17, 255);
+  border-style: solid;
+  height: 20rem;
+  width: 65rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+}
+.memberships {
+  font-size: 3rem;
+  margin-left: 12rem;
+  margin-top: 3rem;
+  border-color: rgb(0, 17, 255);
+  border-style: solid;
+  height: 55rem;
+  width: 65rem;
+  border-radius: 0.5rem;
+}
+.detail {
+  font-size: 3rem;
+  margin-left: 12rem;
+  margin-top: 3rem;
+  height: 35rem;
+  width: 65rem;
+  border-radius: 0.5rem;
+}
+.detailBtns {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.deleteBtn {
+  display: flex;
+  height: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  position: relative;
+  top: 1rem;
+  background-color: red;
+}
+.editBtn {
+  width: 8em;
+}
+.updateForm {
+  margin-left: 20rem;
+}
+.membershipBody {
+  padding-top: 4rem;
+}
+.bottomMessageM {
+  margin-left: 8rem;
+}
+.topboxes {
+  display: flex;
+  justify-content: space-around;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  margin: rem;
+  padding-right: 1rem;
+}
+.joinbtn {
+  margin-top: 2rem;
+}
+.footer {
+  padding-bottom: 2rem;
+}
+.submitBtn {
+}
+.classCards {
+  height: 15rem;
+  margin: 4rem;
+}
+.classForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form-label {
+  display: inline-block;
+  text-align: left;
+}
+.input {
+  /* display: inline-block; */
+  /* text-align: left; */
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.classCardContainer {
+}
+.aboutusHeader {
+  display: flex;
+  align-items: center;
+}
+.classImage {
+  padding-left: 25rem;
+}
+.classList {
+}
+.listContainer {
+  margin: 0 auto;
+  display: inline-block;
+}
